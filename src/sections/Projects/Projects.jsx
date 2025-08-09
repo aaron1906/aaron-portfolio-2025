@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
+import viberr from '../../assets/PfolioImage.png';
+import freshBurger from '../../assets/AnonImage.png';
+import hipsster from '../../assets/HomeRootImage.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
 
@@ -12,25 +12,25 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          link="https://aaron1906.github.io/DemoPfolio/"
+          h3="MyPfolio"
+          p="Responsive Website"
         />
         <ProjectCard
           src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          link="https://aaron1906.github.io/Anon/"
+          h3="Anon"
+          p="Shopping Website"
         />
         <ProjectCard
           src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          link="https://aaron1906.github.io/HomeRoot/"
+          h3="HomeRoot"
+          p="Plant Website"
         />
         <ProjectCard
           src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link=""
           h3="FitLift"
           p="Fitness App"
         />
